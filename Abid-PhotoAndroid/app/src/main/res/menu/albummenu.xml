@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title = "Add Photo..."
+        android:id="@+id/add"
+        android:icon="@drawable/ic_new_photo"></item>
+    <item android:title = "Rename Album..."
+        android:id="@+id/rename"
+        android:icon="@drawable/ic_rename"></item>
+    <item android:title = "Delete Album"
+        android:id="@+id/delete"
+        android:icon="@drawable/ic_delete"></item>
+    <item android:title = "Search..."
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"></item>
+</menu>

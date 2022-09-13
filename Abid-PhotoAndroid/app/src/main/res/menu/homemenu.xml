@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title = "Add Album..."
+        android:id="@+id/add"
+        android:icon="@drawable/ic_new_folder"></item>
+
+    <item android:title = "Search..."
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search"></item>
+</menu>

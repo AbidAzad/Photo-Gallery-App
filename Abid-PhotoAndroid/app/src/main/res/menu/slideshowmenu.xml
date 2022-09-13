@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@android:drawable/ic_media_rew"
+        android:title="Back"
+        android:id="@+id/back"
+        app:showAsAction="ifRoom" />
+    <item
+        android:icon="@android:drawable/ic_media_ff"
+        android:title="Forward"
+        android:id="@+id/forward"
+        app:showAsAction="ifRoom" />
+    <item android:title = "Tags..."
+        android:id="@+id/photoTags"
+        android:icon="@drawable/ic_tags"></item>
+
+    <item android:title = "Move Photo..."
+        android:id="@+id/move"
+        android:icon="@drawable/ic_move"></item>
+
+    <item android:title = "Delete Photo"
+    android:id="@+id/delete"
+        android:icon="@drawable/ic_delete_photo"></item>
+
+
+
+</menu>
